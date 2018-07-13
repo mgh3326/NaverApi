@@ -17,10 +17,10 @@ def get_tags(text, ntags=50):
 
 def main():
     noun_count = 1000
-    output_file_name = "통합.csv"
+    output_file_name = "현대_자동차.csv"
     text = ""
     for i in range(10):
-        with open('경기도_문제/output' + str(i) + '.json', 'r', encoding='utf-8') as f:
+        with open('현대_자동차/output' + str(i) + '.json', 'r', encoding='utf-8') as f:
             array = json.load(f)
             for j in range(len(array['item'])):
                 text += array['item'][0]['title']

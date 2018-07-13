@@ -1,7 +1,7 @@
 import requests
 import json
 
-search = "경기도 문제"
+search = "현대 자동차"
 
 headers = {'Content-Type': 'application/json; charset=utf-8', 'X-Naver-Client-Id': 'RuFoLfsTtI8AaT_9bWNn',
            'X-Naver-Client-Secret': 'kpOxKkLdiK'}

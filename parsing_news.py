@@ -55,9 +55,9 @@ def clean_text(text):
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 oh = [('title', ""), ('content', "")]
-for i in range(10):
+for i in range(1,10):
     item = []
-    with open('경기도_문제/data' + str(i) + '.json', 'r', encoding='utf-8') as f:
+    with open('현대_자동차/data' + str(i) + '.json', 'r', encoding='utf-8') as f:
         array = json.load(f)
         for j in range(100):
             url = array['items'][j]['link']
